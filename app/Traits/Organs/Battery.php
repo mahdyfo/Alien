@@ -8,7 +8,7 @@ trait Battery {
 		$this->energy = min($this->energy + $amount, 100);
 		if($this->energy < 100){
 			// Increase joy by amount or if energy = 98 and amount is 5, increase joy by 2
-			$this->incrementJoy($amount < 100 - $this->energy ? $amount : 100 - $this->energy);
+			$this->incrementJoy(min(100 - $this->energy, $amount));
 		}
 	}
 	
