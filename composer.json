@@ -1,0 +1,12 @@
+{
+    "name": "mahdyfo/alien",
+    "description": "Alien bots simulation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mahdyfo",
+            "email": "mahdyfof@gmail.com"
+        }
+    ],
+    "require": {}
+}
